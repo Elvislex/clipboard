@@ -1,0 +1,225 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+header {
+  background-image: url(images/bg-header-mobile.png);
+  padding: 2.75rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  line-height: 1.7;
+  color: hsl(201, 11%, 66%);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.logo {
+  height: 50%;
+  width: 50%;
+}
+.one {
+  padding: 2.35rem;
+}
+.btn {
+  display: block;
+  margin: 1.3rem auto;
+  padding: 1rem 5rem;
+  border-radius: 30px;
+  border-style: none;
+  color: white;
+  font-weight: 700;
+}
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.two {
+  padding: 2.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.quick {
+  margin-top: 2rem;
+}
+.comp {
+  margin-top: 1.85rem;
+}
+.three {
+  padding: 2.35rem;
+}
+.four {
+  padding: 2.35rem;
+}
+
+.four h2 {
+  padding: 0 3rem;
+}
+.device {
+  margin-top: 3rem;
+}
+
+.clip {
+  margin: 0;
+}
+.icon {
+  height: 15%;
+  width: 15%;
+  margin: auto;
+}
+
+.five {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.icons {
+  height: 25%;
+  width: 25%;
+  margin: auto;
+}
+.mid {
+  margin-top: 5rem;
+}
+.six {
+  margin-top: 4rem;
+}
+
+.six h2 {
+  padding: 0 3rem;
+}
+.socials {
+  width: 9%;
+  height: 9%;
+  margin: auto;
+}
+footer {
+  background-color: hsl(201, 11%, 66%);
+  padding: 2rem 0;
+}
+footer p {
+  color: hsl(210, 10%, 33%,.9);
+  font-weight: 700;
+}
+.media {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 1440px) {
+  header {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0 3rem 0;
+  }
+  .logo {
+    height: 15%;
+    width: 15%;
+  }
+  .two img {
+    width: 80%;
+    margin: auto;
+  }
+  .one p {
+    width: 40%;
+    margin: auto;
+  }
+
+  .sub-two {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .side-bar p {
+    width: 55%;
+  }
+  .btn {
+    display: inline;
+    margin: 1.3rem auto;
+    padding: 1rem 5rem;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+  }
+  .clip {
+    width: 40%;
+    margin: auto;
+  }
+  .three img {
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .three p {
+    width: 45%;
+    margin: auto;
+  }
+  .mid-class {
+    display: flex;
+  }
+  .mid-class p {
+    width: 70%;
+    margin: auto;
+  }
+  .icon {
+    height: 20%;
+    width: 10%;
+    margin: auto;
+  }
+  .five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+  }
+  .icons {
+    height: 70%;
+    width: 70%;
+  }
+
+  .six p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+  .foot{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-evenly;
+  }
+  .socials {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+  }
+  .media{
+    display: flex;
+    gap: 1.5rem;
+  }
+}
